@@ -1,0 +1,25 @@
+detector,partition,control,paired_fits,mean_recall_delta,mean_false_alarm_rate_delta,mean_average_precision_delta,pairs_with_higher_recall,pairs_with_no_far_increase,interpretation
+rf,id_test,jitter,6,0.03968253968253967,-0.0014619883040935672,-0.05959483707469878,5,4,Observed improvement
+rf,id_test,neighbour_interpolation,6,0.03968253968253967,0.0,-0.015190143576677048,5,4,Observed improvement
+rf,id_test,random_duplication,6,0.03968253968253965,0.0014619883040935672,-0.016765817647678188,5,4,"Trade-off: higher recall, more false alarms"
+rf,id_test,real_only,6,0.06349206349206349,0.0,-0.06446632056609991,5,4,Observed improvement
+rf,id_test,reconstruction,6,0.03174603174603171,0.0014619883040935672,-0.046240396595503774,5,4,"Trade-off: higher recall, more false alarms"
+rf,id_test,smote,6,0.055555555555555504,0.0029239766081871343,-0.015579262735687308,5,4,"Trade-off: higher recall, more false alarms"
+rf,ood_test,jitter,6,-0.3179824561403508,-0.10526315789473684,-0.07913886674614873,3,6,"Trade-off: lower recall, fewer false alarms"
+rf,ood_test,neighbour_interpolation,6,-0.3318713450292397,-0.07894736842105263,-0.12063052023787164,2,6,"Trade-off: lower recall, fewer false alarms"
+rf,ood_test,random_duplication,6,-0.3318713450292397,-0.12280701754385963,-0.11912140909914397,2,6,"Trade-off: lower recall, fewer false alarms"
+rf,ood_test,real_only,6,-0.35964912280701755,-0.15204678362573099,-0.13291826595273737,0,6,"Trade-off: lower recall, fewer false alarms"
+rf,ood_test,reconstruction,6,-0.31432748538011684,-0.08479532163742691,-0.078842727783158,2,6,"Trade-off: lower recall, fewer false alarms"
+rf,ood_test,smote,6,-0.3318713450292397,-0.06725146198830409,-0.12058047671958312,2,6,"Trade-off: lower recall, fewer false alarms"
+xgb,id_test,jitter,6,-0.05555555555555556,-0.011695906432748537,-0.018866071333323464,1,6,"Trade-off: lower recall, fewer false alarms"
+xgb,id_test,neighbour_interpolation,6,-0.023809523809523836,-0.0043859649122807015,-0.024155612688822103,3,4,"Trade-off: lower recall, fewer false alarms"
+xgb,id_test,random_duplication,6,-0.02380952380952382,-0.0014619883040935672,-0.026866582781018555,3,5,"Trade-off: lower recall, fewer false alarms"
+xgb,id_test,real_only,6,-0.007936507936507964,-0.014619883040935672,-0.012727598665904912,3,6,"Trade-off: lower recall, fewer false alarms"
+xgb,id_test,reconstruction,6,-0.02380952380952382,-0.0014619883040935672,-0.024327461534127626,2,5,"Trade-off: lower recall, fewer false alarms"
+xgb,id_test,smote,6,-0.031746031746031765,-0.011695906432748537,-0.020783884174897183,2,6,"Trade-off: lower recall, fewer false alarms"
+xgb,ood_test,jitter,6,-0.09649122807017546,-0.07309941520467836,0.08501209498285306,1,6,"Trade-off: lower recall, fewer false alarms"
+xgb,ood_test,neighbour_interpolation,6,0.008771929824561375,-0.04678362573099415,0.09068364618441827,2,5,Observed improvement
+xgb,ood_test,random_duplication,6,-0.03508771929824561,-0.017543859649122806,0.05473062629982923,1,5,"Trade-off: lower recall, fewer false alarms"
+xgb,ood_test,real_only,6,0.02631578947368418,-0.03216374269005848,0.11979253447676458,2,5,Observed improvement
+xgb,ood_test,reconstruction,6,-0.09137426900584796,-0.09649122807017545,0.05960186817770504,1,6,"Trade-off: lower recall, fewer false alarms"
+xgb,ood_test,smote,6,0.017543859649122796,-0.04678362573099415,0.12038344835502814,2,6,Observed improvement

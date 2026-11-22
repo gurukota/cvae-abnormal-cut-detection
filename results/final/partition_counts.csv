@@ -1,0 +1,11 @@
+fold,partition,recordings,cuts,positive,negative
+0,calibration,3,137,30,107
+0,id_test,3,135,21,114
+0,ood_test,2,76,19,57
+0,train,25,1033,171,862
+0,validation,4,204,84,120
+1,calibration,3,137,30,107
+1,id_test,3,135,21,114
+1,ood_test,2,30,12,18
+1,train,25,1079,178,901
+1,validation,4,204,84,120

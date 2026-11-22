@@ -1,0 +1,39 @@
+{
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "epochs": 100,
+  "latent": 12,
+  "hidden": 96,
+  "kl_weight": 0.01,
+  "adam_lr": 0.001,
+  "tree_counts": 200,
+  "depths": [
+    3,
+    6
+  ],
+  "xgb_lr": 0.05,
+  "calibration_far": 0.05,
+  "jitter_sd": 0.05,
+  "python": "3.10.10",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.2.6",
+  "sklearn": "1.7.2",
+  "xgboost": "3.0.5",
+  "training_sha256": "03aabe2e61824fffbfb1f1e4af654bb227c473c482e3106a126cc67436205e6a",
+  "features_sha256": "a9c8e4441c516321e35350eb4699d8e9032aacb27ef6a5ff784794c8aad8902b",
+  "arms": [
+    "real_only",
+    "cvae",
+    "reconstruction",
+    "jitter",
+    "smote",
+    "neighbour_interpolation",
+    "random_duplication"
+  ],
+  "duplication": "Reuse the sampled minority anchors without perturbation; same added count as every augmented arm.",
+  "interpretation": "Post-hoc descriptive rule added after the original six-arm results were inspected. Observed improvement requires mean paired recall delta > 0 and mean paired FAR delta <= 0. Higher recall with higher FAR is a trade-off.",
+  "comparison_sha256": "b246b5d793b774e5f3fadbe38c74e2e098641b57ab7f903d65066ea3c5c3ec23"
+}

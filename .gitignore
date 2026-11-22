@@ -1,0 +1,27 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local build, dissertation drafts and defense material
+.defense_build/
+defense/
+docs/
+
+# Local archives
+*.zip
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep only the submitted result directory
+results/*
+!results/final/
+
+# Regenerable fitted model artefacts within the submitted result directory
+results/final/*.joblib
+results/final/*.pt

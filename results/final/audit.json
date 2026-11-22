@@ -1,0 +1,18 @@
+{
+  "cuts": 1585,
+  "recordings": 37,
+  "labels": {
+    "0": 1173,
+    "1": 325,
+    "2": 87
+  },
+  "representation": "mean of eight windows in 72 primitive sensor coordinates",
+  "source": "cnc_all_sensors prepared data; retrospective reuse",
+  "files": {
+    "alignment_audit.csv": "185c71b6616be1cf0cb2acc161f0ef93afcbcf45c8aea2e7f053eb84b06648b8",
+    "mtconnect_features.csv": "786c45065c6441409fa845cfa715307c9151ef19b387f3cdeb7898ad9bdb03c2",
+    "segments.csv": "e241eb258ba842ac16004130d6f696c3d2e77d9c7b315459c41e06cabd95a83e",
+    "sequences.npz": "0d2fff9386cfaa6cb83af5a614c42d7a1f7221507c10af13ec78836b884f5c06",
+    "split_manifest.csv": "a1e690bfd334706fe7d07d4887d9d37d758f118a80f7ec9f88be7337a32c914b"
+  }
+}
